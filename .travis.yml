@@ -1,0 +1,8 @@
+language: php
+php:
+    - 5.3
+
+env:
+    - TEST
+
+script: phpunit --coverage-text

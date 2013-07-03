@@ -1,0 +1,21 @@
+
+#  Nut configuration
+#
+#
+#      )" .
+#     /    \      (\-./
+#    /     |    _/ o. \
+#   |      | .-"      y)-
+#   |      |/       _/ \
+#   \     /j   _".\(@)
+#    \   ( |    `.''  )
+#     \  _`-     |   /
+#       "  `-._  <_ (
+#              `-.,),)
+#
+
+---
+dependencies:
+    Request: Nut\Kernel\Request
+#    Router: Nut\Kernel\Routing\Router
+    Router: Nut\Kernel\Routing\PlaygroundRouter
