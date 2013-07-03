@@ -7,3 +7,7 @@ env:
     - development
 
 script: phpunit --configuration php/test/phpunit.xml --coverage-text
+
+notifications:
+    email: false
+
