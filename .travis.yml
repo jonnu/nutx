@@ -1,8 +1,9 @@
 language: php
 php:
     - 5.3
+    - 5.4
 
 env:
-    - TEST
+    - development
 
-script: phpunit --coverage-text
+script: phpunit --configuration php/test/phpunit.xml --coverage-text
